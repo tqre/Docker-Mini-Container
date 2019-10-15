@@ -12,7 +12,9 @@ The executable is compiled with nasm:
 The end result is a 173B binary that writes 'Hello, World!' to stdout.
 
 This can be built into a 'scratch' container with the Dockerfile included.
+
 `docker build . -t helloelf`
+
 `docker run helloelf`
 
 ### Additional references:

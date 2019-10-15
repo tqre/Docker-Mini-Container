@@ -41,7 +41,7 @@ _start:
 	syscall
 
 	mov	rax,60					; sys_exit
-	mov	rdi,1					; exit value
+	mov	rdi,0					; exit value
 	syscall
 
 

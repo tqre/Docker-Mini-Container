@@ -1,4 +1,4 @@
-# Bit-sized minimal docker container
+# Very small docker container
 
 First, making a minimal executable.
 The following guide was used, and it was modified to the 64-bit Linux world.

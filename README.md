@@ -7,7 +7,7 @@ http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 
 The executable is compiled with nasm:
 
-nasm -f bin -o helloelf helloelf.asm
+'nasm -f bin -o helloelf helloelf.asm'
 
 resulting in 'helloelf' executable binary
 

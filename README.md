@@ -11,7 +11,7 @@ The executable is compiled with nasm:
 
 The end result is a 173B binary that writes 'Hello, World!' to stdout.
 
-Additional references:
+### Additional references:
 
 https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 

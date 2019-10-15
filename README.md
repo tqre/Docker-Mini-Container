@@ -9,7 +9,7 @@ The executable is compiled with nasm:
 
 `nasm -f bin -o helloelf helloelf.asm`
 
-The end result is a 174B binary that writes 'Hello, World!' to stdout.
+The end result is a 173B binary that writes 'Hello, World!' to stdout.
 
 Additional references:
 

@@ -1,3 +1,3 @@
 FROM scratch
-COPY asm/helloelf
+COPY bin/helloelf
 CMD ["/helloelf"]

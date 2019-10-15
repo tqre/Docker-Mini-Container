@@ -1,3 +1,3 @@
 FROM scratch
-COPY bin/helloelf
+COPY bin/helloelf /
 CMD ["/helloelf"]

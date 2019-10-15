@@ -19,4 +19,3 @@ http://man7.org/linux/man-pages/man5/elf.5.html
 
 https://github.com/torvalds/linux/blob/master/include/uapi/linux/elf.h
 
-I'm trying to run this inside a docker container, but the container hangs... inspecting.

@@ -5,7 +5,7 @@ The following guide was used, and it was modified to the 64-bit Linux world.
 
 http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 
-The executable is compiled with nasm:
+The executable is compiled with nasm (pre-compiled file sits in /bin folder):
 
 `nasm -f bin -o helloelf helloelf.asm`
 

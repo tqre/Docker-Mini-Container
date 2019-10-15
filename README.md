@@ -6,10 +6,9 @@ The following guide was used, and it was modified to the 64-bit Linux world.
 http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 
 The executable is compiled with nasm:
+`nasm -f bin -o helloelf helloelf.asm`
 
-'nasm -f bin -o helloelf helloelf.asm'
-
-resulting in 'helloelf' executable binary
+- resulting in 'helloelf' executable binary
 
 I'm trying to run this inside a docker container, but the container hangs... inspecting.
 

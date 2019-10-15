@@ -1,6 +1,6 @@
-# Very small 'Hello, World!' executable for linux x86_64
+# Bit-sized minimal docker container
 
-This piece was constructed to make a very small executable.
+First, making a minimal executable.
 The following guide was used, and it was modified to the 64-bit Linux world.
 
 http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
@@ -10,6 +10,10 @@ The executable is compiled with nasm:
 `nasm -f bin -o helloelf helloelf.asm`
 
 The end result is a 173B binary that writes 'Hello, World!' to stdout.
+
+This can be built into a 'scratch' container with the Dockerfile included.
+`docker build . -t helloelf`
+`docker run helloelf`
 
 ### Additional references:
 

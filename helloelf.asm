@@ -1,7 +1,6 @@
 BITS 64
 org	0x400000					; executable entry point
 
-; file header
 ehdr:							; elf64_hdr
 		db	0x7F, "ELF", 2, 1, 1, 0		; ELF magic number
 	times 8 db	0
@@ -20,7 +19,6 @@ ehdr:							; elf64_hdr
 		dw	0				; e_shstrndx
 
 ehdrsize	equ	$ - ehdr
-
 
 phdr:							; elf64_phdr
 		dd	1				; p_type

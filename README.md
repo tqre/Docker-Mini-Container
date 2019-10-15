@@ -25,3 +25,5 @@ http://man7.org/linux/man-pages/man5/elf.5.html
 
 https://github.com/torvalds/linux/blob/master/include/uapi/linux/elf.h
 
+https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+

@@ -48,8 +48,8 @@ _start:
 	mov	rax,1					; sys_write
 	syscall
 
-	mov	rax,60					; sys_exit
 	mov	rdi,0					; exit value
+	mov	rax,60					; sys_exit
 	syscall
 
 

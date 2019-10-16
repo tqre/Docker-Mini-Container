@@ -2,6 +2,9 @@
 ; (C) Tuomo Kuure 2019
 ; Original ELF header 32-bit code was written by Brian Raiter:
 ; http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+;
+; Compile with nasm: 
+; nasm -f bin -o helloelf helloelf.nasm
 
 BITS 64
 org	0x400000					; executable entry point

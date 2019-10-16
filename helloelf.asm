@@ -1,3 +1,8 @@
+; Constructing an ELF header and a 'Hello, World!' in assembly for Linux x86_64
+; (C) Tuomo Kuure 2019
+; Original 32-bit code written by Brian Raiter:
+; http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+
 BITS 64
 org	0x400000					; executable entry point
 

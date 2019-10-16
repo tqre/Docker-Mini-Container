@@ -4,7 +4,7 @@
 ; http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 ;
 ; Compile with nasm: 
-; nasm -f bin -o helloelf helloelf.nasm
+; nasm -f bin -o helloelf helloelf.asm
 
 BITS 64
 org	0x400000					; executable entry point
